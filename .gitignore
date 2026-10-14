@@ -21,3 +21,6 @@ _tmp/
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# 本地 Release 暂存目录（发布用资源，不进仓库）
+release/
