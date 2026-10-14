@@ -7,7 +7,7 @@
 | 文件 | 说明 |
 |---|---|
 | `NarakaClientSwitcher-v1.1.exe` | 主程序，约 64 KB，Windows 10 / 11 免安装（自带 .NET Framework 4.8 即可运行） |
-| `naraka-client-switcher-v1.1.zip` | 压缩包版（含主程序 + 使用说明），Android 微信/QQ 传输更方便 |
+| `naraka-client-switcher-v1.1.zip` | 压缩包版（含主程序 + 使用说明），发微信/QQ 更方便 |
 
 ### 本版内容
 
