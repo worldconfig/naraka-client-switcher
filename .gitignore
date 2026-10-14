@@ -1,0 +1,23 @@
+# 运行时生成的文件（不应提交）
+reports/
+settings.ini
+*.log
+*.dltmp
+
+# 测试/临时目录
+plantest/
+smoketest/
+_test/
+_tmp/
+
+# 编译中间产物
+*.pdb
+*.obj
+*.user
+*.suo
+.vs/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
