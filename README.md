@@ -198,8 +198,6 @@ src\build.cmd
 ├── tools/
 │   ├── Rebuild-NarakaCN.ps1         # PowerShell 参考实现（A 模式，与 C# 版结果一致）
 │   └── Verify-NarakaCN.ps1          # PowerShell 版验收脚本
-├── .github/workflows/
-│   └── release.yml                  # 推送 v* 标签时自动发布 Release
 └── README.md
 ```
 
