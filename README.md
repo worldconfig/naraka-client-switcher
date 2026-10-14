@@ -2,10 +2,10 @@
 
 > 用你已经下载过的客户端文件，重建另一个渠道的客户端 —— 90 GB 的游戏，真正需要下载的只有几百 MB。
 
-[![Release](https://img.shields.io/github/v/release/worldconfig/naraka-client-switcher?label=release&sort=semver&color=2ea44f)](https://github.com/worldconfig/naraka-client-switcher/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/worldconfig/naraka-client-switcher/total?label=downloads&color=1f6feb)](https://github.com/worldconfig/naraka-client-switcher/releases)
-[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078d4?logo=windows)](https://github.com/worldconfig/naraka-client-switcher/releases/latest)
-[![Size](https://img.shields.io/badge/size-63.5%20KB-2ea44f)](https://github.com/worldconfig/naraka-client-switcher/releases/latest)
+[![Version](https://img.shields.io/badge/version-v1.1-2ea44f)](https://github.com/worldconfig/naraka-client-switcher/blob/main/docs/release-notes-v1.1.md)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078d4?logo=windows)](https://github.com/worldconfig/naraka-client-switcher)
+[![Size](https://img.shields.io/badge/size-63.5%20KB-2ea44f)](https://github.com/worldconfig/naraka-client-switcher/raw/main/dist/NarakaClientSwitcher.exe)
+[![Dependencies](https://img.shields.io/badge/dependencies-none-2ea44f)](https://github.com/worldconfig/naraka-client-switcher)
 
 ![界面截图](docs/screenshot.png)
 
@@ -13,17 +13,19 @@
 
 ## 下载
 
-### ➡️ [**到 Releases 页面下载最新版**](https://github.com/worldconfig/naraka-client-switcher/releases/latest)
+### ⬇️ [**点此直接下载 NarakaClientSwitcher.exe**](https://github.com/worldconfig/naraka-client-switcher/raw/main/dist/NarakaClientSwitcher.exe)（63.5 KB）
 
-当前版本 **v1.1** 的直接下载链接：
-
-| 文件 | 大小 | 说明 |
+| 方式 | 链接 | 说明 |
 |---|---|---|
-| [**NarakaClientSwitcher-v1.1.exe**](https://github.com/worldconfig/naraka-client-switcher/releases/download/v1.1/NarakaClientSwitcher-v1.1.exe) | 63.5 KB | 主程序，**推荐**。Windows 10 / 11 免安装，无需任何运行库 |
-| [naraka-client-switcher-v1.1.zip](https://github.com/worldconfig/naraka-client-switcher/releases/download/v1.1/naraka-client-switcher-v1.1.zip) | 37.8 KB | 压缩包版（含主程序 + 使用说明），发微信 / QQ 更方便 |
+| **直接下载**（推荐） | [`dist/NarakaClientSwitcher.exe`](https://github.com/worldconfig/naraka-client-switcher/raw/main/dist/NarakaClientSwitcher.exe) | 点开即下载，无需登录，链接长期有效 |
+| 文件页面 | [点这里](https://github.com/worldconfig/naraka-client-switcher/blob/main/dist/NarakaClientSwitcher.exe) | 先看文件信息，再点右上角 Download |
+| 历史版本 / 打包 zip | [Releases](https://github.com/worldconfig/naraka-client-switcher/releases) 页面 | 发布新版本时会附带打包好的 zip |
 
-> 更早或更新的版本都在 [Releases](https://github.com/worldconfig/naraka-client-switcher/releases) 页面。
-> 仓库里的 `dist/NarakaClientSwitcher.exe` 是同一份文件，也可以直接取用。
+**完整性核对**：`dist/NarakaClientSwitcher.exe` 的 SHA256 为
+`3784028410B7FAE0905554378C759CA28AD132841512D6CE0698475B7D16F890`（可用 `certutil -hashfile NarakaClientSwitcher.exe SHA256` 自查）。
+该 exe 与仓库源码同源，可用 [`src/build.cmd`](src/build.cmd) 自行构建比对。
+
+> 想发微信 / QQ 更方便：把下载到的 exe 与 [`docs/使用说明.txt`](docs/使用说明.txt) 一起打成一个 zip 发给对方即可。
 
 ---
 
@@ -63,9 +65,8 @@
 
 ## 快速开始
 
-1. 从 [Releases 页面](https://github.com/worldconfig/naraka-client-switcher/releases/latest) 下载
-   `NarakaClientSwitcher-v1.1.exe`（63.5 KB）—— Windows 10 / 11 自带 .NET Framework 4.8，
-   **无需安装任何运行库**
+1. [**点此下载 `NarakaClientSwitcher.exe`**](https://github.com/worldconfig/naraka-client-switcher/raw/main/dist/NarakaClientSwitcher.exe)（63.5 KB）
+   —— Windows 10 / 11 自带 .NET Framework 4.8，**无需安装任何运行库**
 2. 双击运行；首次会弹出《免责声明与使用须知》，点"我已知悉并同意"继续
 3. 依次操作：**① 扫描（干跑）** → 看清数字 → **② 执行** → **③ 验收**
 
