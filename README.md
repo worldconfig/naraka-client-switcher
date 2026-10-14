@@ -61,9 +61,9 @@
 **A 模式：按官方清单重建（推荐）**
 
 ```
-源：F:\yongjiewujian\NARAKABLADEPOINT   ← 已装好的 Epic/国际服客户端
-清单：F:\Naraka\patch\md5list\data.xml  ← 网易官方清单（可一键下载）
-目标：F:\Naraka                          ← 要重建的国服安装根目录
+源：D:\EpicGames\NARAKABLADEPOINT   ← 已装好的 Epic/国际服客户端
+清单：D:\Naraka\patch\md5list\data.xml  ← 网易官方清单（可一键下载）
+目标：D:\Naraka                          ← 要重建的国服安装根目录
 ```
 
 工具会：读取清单 → 逐文件 MD5 与源比对 → 一致就建硬链接，不一致/缺失才从官方 CDN 下载。
@@ -74,7 +74,7 @@
 "验证游戏文件完整性"，平台只会补下真正的差异。
 
 > 注意：B 模式是**原样镜像**。如果你的源是客户端目录（内含 `NarakaBladepoint_Data`），
-> 目标也要填"装文件的那一层"（例如 `F:\Naraka\program`，而不是 `F:\Naraka`）。
+> 目标也要填"装文件的那一层"（例如 `D:\Naraka\program`，而不是 `D:\Naraka`）。
 > 工具会自动识别这种层级错误并给出提醒。
 
 ---

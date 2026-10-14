@@ -843,7 +843,7 @@ Epic Games 及其关联方均无任何关系，也未获得其授权、认可或
                         string root = Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(mc)));
                         if (!string.IsNullOrEmpty(root)) txtTarget.Text = root;
                     }
-                    else txtTarget.Text = @"F:\Naraka";
+                    else txtTarget.Text = @"D:\Naraka";
                 }
                 if (txtSource.Text.Length == 0)
                 {
@@ -1045,7 +1045,7 @@ Epic Games 及其关联方均无任何关系，也未获得其授权、认可或
             foreach (var it in m.Items) if (it.Path.Length > maxRel) maxRel = it.Path.Length;
             int projected = tgt.TrimEnd('\\').Length + 1 + maxRel;
             if (projected > 250)
-                Log(string.Format("预警：目标目录太深，最长的文件路径约 {0} 字符，可能超过 Windows 的 260 字符上限。建议把目标换到更靠根目录的位置（例如 F:\\Naraka）。", projected));
+                Log(string.Format("预警：目标目录太深，最长的文件路径约 {0} 字符，可能超过 Windows 的 260 字符上限。建议把目标换到更靠根目录的位置（例如 D:\\Naraka）。", projected));
             var plan = Engine.Scan(m, src, tgt, skip, jp, Log);
             if (jp.Cancelled)
             {
